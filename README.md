@@ -15,11 +15,12 @@ If you want to make your own backup of the stock firmware, On the RPi create a f
 To create your own backup run:
 
 cd ~/pi/Press_Firmware/Stock/
+
 avrdude -c avrisp -b 250000 -i 10 -p AT90USB1286 -P /dev/ttyACM0 -F -U flash:r:factory_press_AT90USB1286.hex:i
 
 This will read the firmware on the Press and dump that data to a HEX file called 'factory_press_AT90USB1286.hex' in that folder.
 
-To flash the modified firmware to the Press navigate to the folder where you placed the modded firmware. (i.e. ~/pi/Firmware/Modded')
+To flash the modified firmware to the Press navigate to the folder where you placed the modded firmware. (i.e. ~/pi/Press_Firmware/Modded')
 
 And run: 
 
