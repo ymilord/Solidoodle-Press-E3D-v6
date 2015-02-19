@@ -2,7 +2,7 @@
 
 This repo will have two versions. One Bowden and one direct drive. The in Firmware folder I've place a dump of the stock (shipping) firmware for the Press & a E3D Prepped verison. 
 
-Notice : This is for the folks that are experienced in uploading arduino sketches/hex files to adruino based AVR's. If any of this sounds foreign or complicated- Not not attempt. <b>I will not provide support. Any damages/issues that you cause will be at your own risk.</b>
+Notice : This is for the folks that are experienced in uploading arduino sketches/hex files to AVR's. If any of this sounds foreign or complicated- Not not attempt. <b>I will not provide support. Any damages/issues that you cause will be at your own risk.</b> (Sorry, got to say it.)
 
 Installation:
 
