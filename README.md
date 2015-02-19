@@ -13,6 +13,7 @@ On the Press' controller, The right header is for the ATTINY2313 (Pin 1 is right
 If you want to make your own backup of the stock firmware, On the RPi create a folder where you'd like to store the backup. If you are using OctoPi I'd suggested creating a folder tree ~/pi/Press_Firmware/Stock/ & ~/pi/Press_Firmware/Modded/. 'Stock' to store the backup and 'Modded' to store the firmware provided here. 
 
 To create your own backup run:
+
 cd ~/pi/Press_Firmware/Stock/
 avrdude -c avrisp -b 250000 -i 10 -p AT90USB1286 -P /dev/ttyACM0 -F -U flash:r:factory_press_AT90USB1286.hex:i
 
