@@ -13,4 +13,4 @@ x2 M4 Screws @ 30mm - 2x M4 Nuts - 4x M3 Screws @ 30mm - x1 608ZZ bearing - x1 S
 
 Non-Bowden Setup:
 3x M3 Screws @ 30mm - 1x 608ZZ Bearing - 1x Spring (see above) 
-I use a short piece of PTFE tubing that have a "V" shape at the top (see the example image for details)
+I use a short piece of PTFE tubing that have a "V" shape at the top (see the example image for details.)
