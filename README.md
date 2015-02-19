@@ -1,4 +1,4 @@
-# E3D Ready Firmware & Parts for the Soildoodle Press
+# E3D v6 Ready Firmware & Parts for the Soildoodle Press
 
 This repo will have two versions. One Bowden and one direct drive. The in Firmware folder I've place a dump of the stock (shipping) firmware for the Press & a E3D Prepped verison. 
 
