@@ -3,9 +3,10 @@ STL & STEP files.
 
 Printed @  0.2mm Layer height - 20% Infill - *8 Perimeters* - *8 Solid layers Top & Bottom* (*That's optional - I just used the same profile I use to print mounts of any kind. Just my personal preference.*) All designed to be printed as-is no supports.
 
-This is a WIP (Work-In-Progess). I've uploaded the STL's for the Bowden Config for the SD Press. The STEP's will soon follow (I need to clean then up and label everything) As for the Non-Bowden verison. I am still designing the plug-in for the Z-Probe.
+This is a WIP (Work-In-Progess). I've uploaded the STL's & STEP files for the Bowden Config for the SD Press. The STEP's for the non-bowden soon to follow (I need to clean then up and label everything) As for the Non-Bowden verison. I am still designing the plug-in for the Z-Probe.
 
 In the firmware folder, It has the INO & a precomplied HEX with changes to support the E3D v6 on the Press. Nothing else. 
+
 
 Additional Parts Need :
 
