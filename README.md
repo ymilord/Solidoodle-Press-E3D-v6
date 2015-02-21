@@ -2,16 +2,16 @@
 
 This repo will have two versions. One Bowden and one direct drive. The in Firmware folder I've place a dump of the stock (shipping) firmware for the Press & a E3D Prepped verison. 
 
-The main difference between the Bowden and the Non-bowden (aside from the bowden itself) is the Z-Height loss.
+The main difference between the *Bowden* and the *Non-bowden* (aside from the bowden itself) is the Z-Height loss.
 In the non-bowden, Nothing changes - you will have the full 203mm travel for printing. For the Non-Bowden you will lose about 68mm of Z-Travel. So adjust your slicer app accordingly.
 
 <b>Notice :</b> This is for the folks that are experienced in uploading arduino sketches/hex files to AVR's. If any of this sounds foreign or complicated- Not not attempt. <b>I will not provide support. Any damages/issues that you cause will be at your own risk.</b> (Sorry, got to say it.)
 
-Installation:
+<b>Installation :</b>
 
 This was done with a USBTinyISP connected to a RPI B+. (If you are using OctoPi and have a USBTinyISP this is by far the easiest method.) Of course there are other methods to do this. Use what ever workflow works best for you. This is a document of what I've done.
 
-On the Press' controller, The right header is for the ATTINY2313 (Pin 1 is right) the left header is for the AT90USB1286 (Pin 1 is left). The ATTINY2313 can be pulled directly (no jumpers) but the AT90USB1286 needs a jumper in JP1 in order for you to read/write the firmware via the ICSP header.
+On the Press' controller, The right header is for the *ATTINY2313* (Pin 1 is right) the left header is for the *AT90USB1286* (Pin 1 is left). The *ATTINY2313* can be pulled directly (no jumpers) but the *AT90USB1286* needs a jumper in JP1 in order for you to read/write the firmware via the ICSP header.
 
 If you want to make your own backup of the stock firmware, On the RPi create a folder where you'd like to store the backup. If you are using OctoPi I'd suggested creating a folder tree ~/pi/Press_Firmware/Stock/ & ~/pi/Press_Firmware/Modded/. 'Stock' to store the backup and 'Modded' to store the firmware provided here. 
 
