@@ -1,0 +1,3 @@
+This is the SD2 E3D v6 mount with Mk8 support. This updated design has a PTFE tube in the 
+lever to provide a better smoother path for flexible filaments like NinjaFlex. There is also
+a updated back plate thats thicker to prevent flex in the extruder assembly.
