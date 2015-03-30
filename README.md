@@ -2,8 +2,7 @@
 
 This repo will have two versions. One Bowden and one direct drive. The in Firmware folder I've place a dump of the stock (shipping) firmware for the Press & a E3D Prepped verison. 
 
-The main difference between the *Bowden* and the *Non-bowden* (aside from the bowden itself) is the Z-Height loss.
-In the bowden, Nothing changes - you will have the full 203mm travel for printing. For the Non-Bowden you will lose about 68mm of Z-Travel. So adjust your slicer app accordingly.
+The main difference between the *Bowden* and the *Direct Drive* (aside from the bowden itself) is the Z-Height loss. In the bowden, Nothing changes - you will have the full 203mm travel for printing. For the Non-Bowden you will lose about 68mm of Z-Travel. So adjust your slicer app accordingly.
 
 <b>Notice :</b> This is for the folks that are experienced in uploading arduino sketches/hex files to AVR's. If any of this sounds foreign or complicated- Not not attempt. <b>I will not provide support. Any damages/issues that you cause will be at your own risk.</b> (Sorry, got to say it.)
 
